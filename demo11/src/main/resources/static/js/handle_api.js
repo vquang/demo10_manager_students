@@ -75,7 +75,7 @@ function handleChart(id, type, xValues, yValues, barColors, text, scales) {
     });
 }
 function handleMajorStudent(response) {
-    var xValues = ["IT", "Kinh Tế", "Ngôn Ngữ"];
+    var xValues = ["Công Nghệ Thông Tin", "Kinh Tế", "Ngôn Ngữ Học"];
     var yValues = response['data'];
     var barColors = [
         "#80ffaa",
@@ -85,7 +85,7 @@ function handleMajorStudent(response) {
     handleChart('pieStudent', 'pie', xValues, yValues, barColors, 'Chuyên Ngành Sinh Viên:', '');
 }
 function handleMajorLecturer(response) {
-    var xValues = ["IT", "Kinh Tế", "Ngôn Ngữ"];
+    var xValues = ["Công Nghệ Thông Tin", "Kinh Tế", "Ngôn Ngữ Học"];
     var yValues = response['data'];
     var barColors = [
         "#80ffaa",
