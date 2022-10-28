@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background:  #f2f2f2;
+}
+i:hover {
+    cursor: pointer;
+    color: rgba(255,255,255,.75);
+}
+a:hover {
+    cursor: pointer;
+}
+.color {
+    border-color: red;
+}
